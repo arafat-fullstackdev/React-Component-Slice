@@ -26,7 +26,7 @@ const UseEffect = () => {
       }
     };
     fetchUser();
-   },[]);
+   },[error]);
 
    if(loading) return <p>Loading data...</p>
    if(error) return <p>Network failde!</p>
